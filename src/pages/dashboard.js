@@ -126,7 +126,7 @@ export default function Dasbor() {
                                 className={`${styles.logoutBtn} ${styles.noteButton}`}
                                 onClick={() => {
                                     // Tambahkan logika untuk membuat catatan di sini
-                                    router.push("/notes/create");
+                                    router.push("/create-note");
                                 }}>
                                 Buat Catatan
                             </button>
@@ -136,7 +136,7 @@ export default function Dasbor() {
                                 className={`${styles.logoutBtn} ${styles.noteButton}`}
                                 onClick={() => {
                                     // Tambahkan logika untuk menuju ke halaman detail catatan di sini
-                                    router.push("/notes/[id]", "/notes/123");
+                                    router.push("/detail-notes/[id]", "/detail-notes/123");
                                 }}>
                                 Detail Catatan
                             </button>

@@ -21,7 +21,7 @@ export default async function handler(req, res) {
         const newNote = new NoteModel({
             title,
             note,
-            user_id,
+            user_id,    
         });
 
         await newNote.save();
