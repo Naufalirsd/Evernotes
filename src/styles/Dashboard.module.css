@@ -1,0 +1,96 @@
+/* styles.css atau nama file CSS Anda */
+
+/* Gaya untuk kontainer utama */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Atur sesuai kebutuhan */
+}
+
+/* Gaya untuk sidebar */
+.sidebar {
+  background-color: #e2e2e2;
+  padding: 20px;
+  width: 20%; /* Atur lebar sidebar sesuai kebutuhan */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+/* Gaya untuk konten utama */
+.main-content {
+  flex: 1; /* Agar konten utama mengambil sisa ruang */
+  padding: 20px;
+}
+
+/* Gaya untuk header */
+.header {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/* Gaya untuk tombol logout */
+.logoutBtn {
+  font-weight: 600;
+  /*Sesuaikanberatteks*/padding: 8px 16px;
+  /*Sesuaikanukuranpadding*/margin-top: 16px;
+  /*Sesuaikanjarakantarelemen*/background-color: transparent white;
+  /*Aturwarnalatarbelakang*/color: black;
+  /*Aturwarnateks*/border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.noteButton {
+  font-weight: 600;
+  padding: 8px 16px;
+  margin-top: 16px;
+  background-color: transparent white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* Gaya untuk tabel */
+.table-container {
+  width: 100%;
+  margin-top: 20px; /* Sesuaikan jarak antar elemen */
+}
+
+.table {
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Gaya untuk baris tabel */
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+/* Gaya untuk header pengguna */
+.user-header {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 16px;
+  font-weight: 700;
+  font-size: 28px;
+}

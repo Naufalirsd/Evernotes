@@ -1,0 +1,13 @@
+/* DetailNote.module.css */
+.detailNoteContainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.detailNoteContainer h2 {
+  margin-bottom: 8px;
+}
+
+.detailNoteContainer p {
+  margin-bottom: 16px;
+}
